@@ -1,0 +1,27 @@
+<!--pages/reg/reg.wxml-->
+<view>
+    <image src='../../image/1.jpg' class='back'></image>
+</view>
+<view class="container">
+    <view class="userinfo">
+        <image src='../../image/user1.png'></image>
+    </view>
+    <view class="usermotto">
+        <view class="section">
+            <input placeholder="请输入账号" auto-focus/>
+            <image src='../../image/user2.png' class="user1"></image>
+        </view>
+        <view class="section">
+            <image src='../../image/yc1.png' class="user1"></image>
+            <input type="password" placeholder="请输入密码" focus="{{focus}}"/>
+        </view>
+        <view class="section">
+            <image src='../../image/yc1.png' class="user1"></image>
+            <input type="password" placeholder="确认输入密码" focus="{{focus}}"/>
+            <view class="btn-area">
+                <button bindtap="bindButtonTap">点击注册</button>
+            </view>
+            <!-- <view>点击上面的“注册”按钮 即表示你同意《<a>爱宠有道许可及服务协议</a>》和《<a>爱宠有道隐私政策</a>》</view> -->
+        </view>
+    </view>
+</view>

@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view>
+    <image src='../../image/1.jpg' class='back'></image>
+</view>
+<view class="container">
+    <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称
+        </button>
+        <block wx:else>
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+    <view class="usermotto">
+        <view class="section">
+            <input placeholder="请输入账号" auto-focus/>
+            <image src='../../image/user2.png' class="user1"></image>
+        </view>
+        <view class="section">
+            <image src='../../image/yc1.png' class="user1"></image>
+            <input type="password" placeholder="请输入密码" focus="{{focus}}"/>
+            <view class="btn-area">
+                <button bindtap="bindButtonTap">点击登录</button>
+            </view>
+        </view>
+        <view class="section">
+            <a class="ic" bindtap="forget">忘记密码？</a>
+            <a class="ic" bindtap="zhuce">新用户注册</a>
+        </view>
+    </view>
+</view>

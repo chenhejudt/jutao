@@ -1,0 +1,84 @@
+/* pages/reg/reg.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.userinfo image {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+
+
+.usermotto {
+  margin-top: 100px;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.section {
+  position: relative;
+}
+
+.section span {
+  float: left;
+  color: white;
+}
+
+.section input {
+  border-bottom: 1px solid white;
+  margin-bottom: 60rpx;
+  color: rgba(250,250,250,.6);
+}
+
+.section a.ic {
+  font-size: 24rpx;
+  color: rgba(255,255,255,.6);
+  margin-top: 20rpx;
+}
+
+.section a.ic:first-child {
+  float: left;
+}
+
+.section a.ic:last-child {
+  float: right;
+}
+
+.user1 {
+  padding-top: 6rpx;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.btn-area {
+  margin-top: 50rpx;
+}
+
+
