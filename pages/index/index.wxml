@@ -1,0 +1,249 @@
+<!--index.wxml-->
+<!-- <view class='top'>租凭</view> -->
+ <swiper class='lunbo' indicator-dots='true' autoplay='true' indicator-dots='2000' circular='true' indicator-color='#ffffff'>
+  <swiper-item><image src='../../image/red.jpg'></image></swiper-item>
+   <swiper-item><image src='../../image/catt.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/too.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/cat.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/dog.jpg'></image></swiper-item>
+</swiper>  
+
+<view class='zu'>
+<text class=' {{menuTapCurrent=="0"?"borders":""}}' data-current="0" bindtap='menuTap'>租狗</text>
+<text class=' {{menuTapCurrent=="1"?"borders":""}}' data-current="1" bindtap='menuTap'>租猫</text>
+<view class='clear'></view>
+</view>
+<view class='box'
+hidden="{{menuTapCurrent!='0'}}"
+>
+  <view class='con'>   
+    <image src='../../image/huo_03.jpg'></image>
+    <text>宠物推荐</text>
+  </view>
+  <view class='fen'>
+    <text>全部品种</text>
+    <image src='../../image/jian_03.jpg'></image>
+  </view>
+  <view class='clear'></view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/icon_09.jpg'></image>
+  <text>品种：萨摩耶犬</text>
+  <text>年龄：3岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'
+      bindtap='can'
+    >查看详情》</text>
+  </view>
+  </view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/dog.jpg'></image>
+  <text>品种：法斗</text>
+  <text>年龄：2岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'
+    bindtap='can'
+    >查看详情》</text>
+  </view>
+  </view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/too.jpg'></image>
+  <text>品种：萨摩耶犬</text>
+  <text>年龄：3岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'
+    bindtap='can'
+    >查看详情》</text>
+  </view>
+  </view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/red.jpg'></image>
+  <text>品种：萨摩耶犬</text>
+  <text>年龄：3岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'
+    bindtap='can'
+    >查看详情》</text>
+  </view>
+  </view>
+  <view class='clear'></view>
+  <view class='hui'></view>
+  <view class='ling'>
+  <image src='../../image/ling_03.jpg'></image>
+  <text>宠物学堂</text>
+  </view>
+  <view class='gou'>
+  <view class='cot'>
+    <view class='img'>
+      <image src='../../image/gou_03.jpg'></image>
+    </view>
+    <view class='tex'>
+      <text>日本的“外交官”—秋田犬</text>
+      <view class='bot'>
+      <image src='../../image/book.png'></image>
+      <text>1.8w</text>
+      </view>
+    </view>
+  </view>
+  </view>
+  <view class='gou'>
+  <view class='cot'>
+    <view class='img'>
+      <image src='../../image/gou_07.jpg'></image>
+    </view>
+    <view class='tex'>
+      <text>汪星人也便秘</text>
+      <view class='bot'>
+      <image src='../../image/book.png'></image>
+      <text>3.3w</text>
+      </view>
+    </view>
+  </view>
+  </view>
+  <view class='gou'>
+  <view class='cot'>
+    <view class='img'>
+      <image src='../../image/gou_09.jpg'></image>
+    </view>
+    <view class='tex'>
+      <text>加拿大无毛猫为神魔没有毛？</text>
+      <view class='bot'>
+      <image src='../../image/book.png'></image>
+      <text>4.9w</text>
+      </view>
+    </view>
+  </view>
+  </view>
+</view>
+<view class='box1'
+hidden="{{menuTapCurrent!='1'}}"
+>
+  <view class='con'>   
+    <image src='../../image/huo_03.jpg'></image>
+    <text>宠物推荐</text>
+  </view>
+  <view class='fen'>
+    <text>全部品种</text>
+    <image src='../../image/jian_03.jpg'></image>
+  </view>
+  <view class='clear'></view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/cat_03.jpg'></image>
+  <text>品种：折耳根蓝猫</text>
+  <text>年龄：2岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'>查看详情》</text>
+  </view>
+  </view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/cat_03.jpg'></image>
+  <text>品种：折耳根蓝猫</text>
+  <text>年龄：2岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'>查看详情》</text>
+  </view>
+  </view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/cat.jpg'></image>
+  <text>品种：折耳根蓝猫</text>
+  <text>年龄：3岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'>查看详情》</text>
+  </view>
+  </view>
+  <view class='left'>
+  <view class='bomo'>
+  <image src='../../image/cat.jpg'></image>
+  <text>品种：折耳根蓝猫</text>
+  <text>年龄：3岁</text>
+  <text>性格：活泼好动</text>
+  </view>            
+  <view class='bom'>
+    <image src='../../image/xin.png'></image>
+    <text>50</text>
+    <text class='last'>查看详情》</text>
+  </view>
+  </view>
+  <view class='clear'></view>
+  <view class='hui'></view>
+  <view class='ling'>
+  <image src='../../image/ling_03.jpg'></image>
+  <text>宠物学堂</text>
+  </view>
+  <view class='gou'>
+  <view class='cot'>
+    <view class='img'>
+      <image src='../../image/gou_03.jpg'></image>
+    </view>
+    <view class='tex'>
+      <text>日本的“外交官”—秋田犬</text>
+      <view class='bot'>
+      <image src='../../image/book.png'></image>
+      <text>1.8w</text>
+      </view>
+    </view>
+  </view>
+  </view>
+  <view class='gou'>
+  <view class='cot'>
+    <view class='img'>
+      <image src='../../image/gou_07.jpg'></image>
+    </view>
+    <view class='tex'>
+      <text>汪星人也便秘</text>
+      <view class='bot'>
+      <image src='../../image/book.png'></image>
+      <text>3.3w</text>
+      </view>
+    </view>
+  </view>
+  </view>
+  <view class='gou'>
+  <view class='cot'>
+    <view class='img'>
+      <image src='../../image/gou_09.jpg'></image>
+    </view>
+    <view class='tex'>
+      <text>加拿大无毛猫为神魔没有毛？</text>
+      <view class='bot'>
+      <image src='../../image/book.png'></image>
+      <text>4.9w</text>
+      </view>
+    </view>
+  </view>
+  </view>
+</view>

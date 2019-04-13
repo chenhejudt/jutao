@@ -1,0 +1,100 @@
+/* pages/insur/insur.wxss */
+.top{
+  margin: 21rpx 0;
+  border-bottom:1px solid #999999; 
+  padding-bottom:25rpx;
+  }
+.top image{
+  width: 56rpx;
+  height: 48rpx;
+  padding: 0 8rpx 0 23rpx;
+  position: relative;
+  top: 12rpx;
+}
+.top text{
+  font-size: 35rpx;
+  color: #2b2b2b;
+}
+.txt{
+  width: 100%;
+  border-bottom: 30rpx solid #f2f2f2;
+}
+.txt text{
+  display: block;
+  padding: 20rpx 76rpx 36rpx 28rpx;
+  color: #5f5f5f;
+  font-size: 30rpx;
+}
+.nav{
+  margin: 21rpx 0;
+  }
+.nav image{
+  width: 60rpx;
+  height: 60rpx;
+  padding: 0 8rpx 0 23rpx;
+  position: relative;
+  top: 12rpx;
+}
+.nav text{
+  font-size: 35rpx;
+  color: #2b2b2b;
+}
+.con{
+  border-top:1px solid #999999; 
+}
+.cont{
+  padding: 30rpx 28rpx;
+}
+.ten text:first-child{
+  color: #3a3a3a;
+  font-size: 35rpx;
+  margin-right: 28rpx;
+}
+.ten text:nth-child(2){
+  color: #ff9c9c; 
+}
+.ten checkbox{
+  float: right;
+}
+.bottom text{
+  color: #5f5f5f;
+  font-size: 26rpx;
+}
+.bottom text:last-child{
+  float: right;
+  padding-top: 10rpx;
+  color: #ff6868;
+  text-decoration: underline;
+}
+.box{
+  position: fixed;
+  width: 750rpx;
+  /* height: 1220rpx; */
+  background: #ededed;
+  top: 0;
+}
+.two{
+  width: 710rpx;
+  /* height: 1220rpx; */
+  /* position: fixed; */
+  background: #ffffff;
+  /* top: 34rpx;
+  left: 20rpx; */
+  margin: 30rpx 20rpx;
+}
+.two image{
+  width: 44rpx;
+  height: 44rpx;
+  position: absolute;
+  right: 0;
+  top:0rpx;
+}
+.box1{
+  padding: 20rpx 65rpx;
+}
+.box1 text{
+  display: block;
+  color: #333333;
+  font-size: 30rpx;
+  /* margin-bottom: 35rpx; */
+}

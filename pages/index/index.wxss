@@ -1,0 +1,172 @@
+/**index.wxss**/
+.top{
+  width: 100%;
+  height: 90rpx;
+  background: linear-gradient(to top right, #fe8659, #fb6a60);
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 90rpx;
+}
+.lunbo image{
+  width: 100%;
+}
+.zu{
+
+  width: 100%;
+  margin-top: 20rpx;
+}
+.zu text{
+  display: block;
+  float: left;
+  width: 50%;
+  border-bottom: 6rpx solid #c9c9c9;
+  text-align: center;
+  font-size: 28rpx;
+  padding-bottom: 10rpx;
+
+}
+.zu text.borders {
+  color: #fb6a60;
+  border-bottom: 6rpx solid #fb6e5f;
+}
+.clear{
+  clear: both;
+}
+.box,
+.box1{
+  padding: 0 30rpx;
+}
+.fen,
+.con{
+  padding: 35rpx 0 30rpx;
+  float: left;
+}
+.con image{
+  width: 34rpx;
+  height: 34rpx;
+  position: relative;
+  top: 4rpx;
+  margin-right: 12rpx;
+}
+.fen text,
+.con text{
+  color: #000000;
+  font-size: 30rpx;
+  margin-right: 22rpx;
+}
+.fen{
+  float: right;
+}
+.fen image{
+  width: 34rpx;
+  height: 34rpx;
+  position: relative;
+  top: 4rpx;
+}
+.clear{
+  clear: both;
+}
+.left{
+  width: 332rpx;
+  border: 1px solid #ececec; 
+  float: left;
+  margin-right: 8rpx;
+  margin-bottom: 25rpx;
+}
+.bomo image{
+  display: block;
+  width: 100%;
+}
+.bomo text{
+  display: block;
+  color: #999999;
+  font-size: 30rpx;
+  padding: 20rpx 20rpx 0 20rpx;
+}
+.bom{
+  width: 272rpx;
+  height: 90rpx;
+  border-top: 1px solid #999999;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+}
+.bom image{
+  position: relative;
+  top: 25rpx;
+  display: block;
+  float: left;
+  width: 44rpx;
+  height: 44rpx;
+}
+.bom text{
+  line-height: 90rpx;
+  font-size: 32rpx;
+  color: #999999;
+}
+.last{
+  display: block;
+  float: right;
+}
+.clear{
+  clear: both;
+}
+.hui{
+  width: 100%;
+  height: 30rpx;
+  background: #e5e5e5;
+  margin-bottom: 25rpx;
+}
+.ling{
+  width: 100%;
+  border-bottom: 1px solid #b4b4b4;
+  padding-bottom: 10rpx;
+}
+.ling image{
+  position: relative;
+  top: 8rpx;
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 20rpx;
+}
+.ling text{
+  color: #000000;
+  font-size: 30rpx;
+}
+.gou{
+  width: 100%;
+  border-bottom: 1px solid #999999;
+}
+.cot{
+  padding: 30rpx 0 40rpx;
+}
+.img{
+  width: 192rpx;
+height: 140rpx;
+float: left;
+margin-right: 20rpx;
+}
+.img image{
+width: 192rpx;
+height: 140rpx;
+}
+.tex{ 
+  width: 100%;
+  height: 140rpx;
+}
+.tex text:first-child{
+  font-size: 30rpx;
+}
+.tex image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 5rpx;
+}
+.bot{
+  margin-top: 50rpx;
+}
+.bot text{
+  position: relative;
+  top: -13rpx;
+  color: #727272;
+  font-size: 25rpx;
+}

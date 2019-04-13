@@ -1,0 +1,58 @@
+<view class='top'>
+  <image  src='../../image/bao_03.png'></image>
+  <text>宠物保险是什么？</text>
+</view>
+<view class='txt'>
+  <text>宠物保险是指投保人根据合同约定，向保险的宠物支付保险费，保险人对于合同约定的可能发生的事故因其发生所造成的宠物伤害或丢失，或者当被保险的宠物死亡、伤残、疾病或者达到合同约定的年龄、期限时承担给付保险金责任的商业保险行为。</text>
+</view>
+<view class='nav'>
+  <image  src='../../image/bao_06.png'></image>
+  <text>购买保险</text>
+</view>
+<view class='con'>
+<view class='cont'>
+  <view class='ten'>
+    <text>宠物医疗费用保险</text>
+    <text>￥ 100</text>
+    <checkbox></checkbox>
+  </view>
+  <view class='bottom'>
+    <text>对遭受意外伤害或者患病的宠物就医治疗所支出的费用给予补偿</text>
+    <text
+    bindtap='click'
+    >点击查看条款</text>
+  </view>
+</view>
+</view>
+<view class='con'>
+<view class='cont'>
+  <view class='ten'>
+    <text>宠物医疗费用保险</text>
+    <text>￥ 100</text>
+    <checkbox></checkbox>
+  </view>
+  <view class='bottom'>
+    <text>对遭受意外伤害或者患病的宠物就医治疗所支出的费用给予补偿</text>
+    <text
+    bindtap='click'
+    >点击查看条款</text>
+  </view>
+</view>
+</view>
+<view class='box' wx:if="{{showModal}}"  hidden='{{hiddenName}}' >
+<scroll-view scroll-y class='two'>
+<image src='../../image/X.png' bindtap='textHide'></image>
+  <view class='box1'>
+    <text>(一）在本合同保险期间内，因被保险人合法拥有的宠物造成第三者的人身伤害或财产的直接损失，依法应由被保险人承担的经济赔偿责任，本公司按本附加险条款的规定在赔偿限额内负责赔偿。</text>
+  <text>（二）对被保险人经本公司书面同意的因上述原因而支付的诉讼费用及其他费用，本公司亦负责赔偿，但本项费用与责任赔偿金额之和以保险单中列明的本附加险赔偿限额为限。</text>
+  <text>由于下列原因造成的损失，本公司不不负责赔偿：</text>
+  <text>（一）被保险人及其家庭成员、家庭雇佣人员、暂居人员的人身伤害或其所有、租用或保管的财产的损失；</text>
+  <text>（二）被保险人的故意行为造成的第三者的人身伤害和财产损失；</text>
+  <text>（三）被保险人拥有的宠物造成其他动物的伤害；</text>
+  <text>（四）被保险人拥有的宠物在被他人照管期间造成的第三者的人身伤害或财产损失；</text>
+  <text>（五）相关法律法规禁止普通市民饲养的宠物；不管有无法律禁止，本公司所述宠物不包括 藏獒、 阿富汗猎犬、苏俄牧羊犬及类似大型或烈性犬只；</text>
+  <text>（六）因保险事故引起的任何精神损害赔偿；</text>
+  <text>（七）罚款、罚金或惩罚性赔偿。</text>
+  </view>
+</scroll-view>
+</view>

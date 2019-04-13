@@ -1,0 +1,21 @@
+/* pages/set/set.wxss */
+.con{
+  padding: 65rpx 88rpx 0 ;
+}
+.con image{
+width: 19rpx;
+height: 35rpx;
+float: right;
+position: relative;
+top: 3rpx;
+}
+.con text{
+  color: #333333;
+  font-size: 30rpx;
+}
+.btn{
+  width: 575rpx;
+  margin-top: 235rpx;
+  background: #fd805b;
+  color: #ffffff;
+}

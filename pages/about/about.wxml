@@ -1,0 +1,36 @@
+<view class='nav'>
+  <image src='../../image/w1.jpg'></image>
+  <text>未登录</text>
+</view>
+<view class='my'>
+  <image src='../../image/w2.png'></image>
+  <text>消息</text>
+</view>
+<view class='my'>
+  <image src='../../image/w2_03.png'></image>
+  <text>钱包</text>
+</view>
+<view class='my'>
+  <image src='../../image/w2_06.png'></image>
+  <text>我的订单</text>
+</view>
+<view class='my'>
+  <image src='../../image/w2_08.png'></image>
+  <text
+    bindtap='insur'
+  >我的保险</text>
+</view>
+<view class='my'>
+  <image src='../../image/w6.png'></image>
+  <text>我的医生</text>
+</view>
+<view class='my'>
+  <image src='../../image/w2_13.png'></image>
+  <text>关于</text>
+</view>
+<view class='my'>
+  <image src='../../image/w2_15.png'></image>
+  <text
+    bindtap='set'
+  >设置</text>
+</view>

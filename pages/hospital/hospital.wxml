@@ -1,0 +1,414 @@
+<swiper class='lunbo' indicator-dots='true' autoplay='true' indicator-dots='2000' circular='true' indicator-color='#ffffff'>
+  <swiper-item><image src='../../image/y1.jpg'></image></swiper-item>
+   <swiper-item><image src='../../image/y2.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/y3.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/y4.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/y5.jpg'></image></swiper-item>
+</swiper>  
+<view class='nav'>
+  <text class=' {{menuTapCurrent=="0"?"borders":""}}' data-current="0" bindtap='menuTap'>在线医生</text>
+  <text class=' {{menuTapCurrent=="1"?"borders":""}}' data-current="1" bindtap='menuTap'>附近医院</text>
+  <text class=' {{menuTapCurrent=="2"?"borders":""}}' data-current="2" bindtap='menuTap'>宠物常识</text>
+</view>
+<view class='clear'></view>
+<view class='box'hidden="{{menuTapCurrent!='0'}}">
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con'>
+  <text>所在医院：康维动物医院</text>
+  <text>姓名：姜雪</text>
+  <text>信息：康维动物医院医师助理......</text>
+  </view>
+  <view class='info'>
+  <image src='../../image/zi.png'></image>
+  <text>咨询</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+</view>
+<view class='box1'
+hidden="{{menuTapCurrent!='1'}}"
+>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia'>
+  <view class='zon1'>
+  <image src='../../image/s1.jpg'></image>
+  </view>
+  <view class='con1'>
+  <text>医院：贵族宠物医院</text>
+  <text>地址：北京</text>
+  <text>信息：专注于猫狗的治疗,并卖一些药</text>
+  </view>
+  <view class='info1'>
+  <text>推荐指数：*****</text>
+  <text>745m</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+</view>
+ <view class='box2'
+ hidden="{{menuTapCurrent!='2'}}"
+ >
+<view class='zuan'>
+  <view class='jia2'>
+  <view class='zon2'>
+  <image src='../../image/c1_03.jpg'></image>
+  </view>
+  <view class='con2'>
+  <text>狗狗干咳怎么办 要如何防止呢？</text>
+  <text>咳嗽、干呕并不是神魔严重的问题，如果平时出现这样的问题可能是感冒或者后补卡住异物所引起的，处理得当一般不会有什什么......</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia2'>
+  <view class='zon2'>
+  <image src='../../image/c1_03.jpg'></image>
+  </view>
+  <view class='con2'>
+  <text>狗狗干咳怎么办 要如何防止呢？</text>
+  <text>咳嗽、干呕并不是神魔严重的问题，如果平时出现这样的问题可能是感冒或者后补卡住异物所引起的，处理得当一般不会有什什么......</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia2'>
+  <view class='zon2'>
+  <image src='../../image/c1_03.jpg'></image>
+  </view>
+  <view class='con2'>
+  <text>狗狗干咳怎么办 要如何防止呢？</text>
+  <text>咳嗽、干呕并不是神魔严重的问题，如果平时出现这样的问题可能是感冒或者后补卡住异物所引起的，处理得当一般不会有什什么......</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia2'>
+  <view class='zon2'>
+  <image src='../../image/c1_03.jpg'></image>
+  </view>
+  <view class='con2'>
+  <text>狗狗干咳怎么办 要如何防止呢？</text>
+  <text>咳嗽、干呕并不是神魔严重的问题，如果平时出现这样的问题可能是感冒或者后补卡住异物所引起的，处理得当一般不会有什什么......</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia2'>
+  <view class='zon2'>
+  <image src='../../image/c1_03.jpg'></image>
+  </view>
+  <view class='con2'>
+  <text>狗狗干咳怎么办 要如何防止呢？</text>
+  <text>咳嗽、干呕并不是神魔严重的问题，如果平时出现这样的问题可能是感冒或者后补卡住异物所引起的，处理得当一般不会有什什么......</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia2'>
+  <view class='zon2'>
+  <image src='../../image/c1_03.jpg'></image>
+  </view>
+  <view class='con2'>
+  <text>狗狗干咳怎么办 要如何防止呢？</text>
+  <text>咳嗽、干呕并不是神魔严重的问题，如果平时出现这样的问题可能是感冒或者后补卡住异物所引起的，处理得当一般不会有什什么......</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+<view class='zuan'>
+  <view class='jia2'>
+  <view class='zon2'>
+  <image src='../../image/c1_03.jpg'></image>
+  </view>
+  <view class='con2'>
+  <text>狗狗干咳怎么办 要如何防止呢？</text>
+  <text>咳嗽、干呕并不是神魔严重的问题，如果平时出现这样的问题可能是感冒或者后补卡住异物所引起的，处理得当一般不会有什什么......</text>
+  </view>
+  <view class='clear'></view>
+  </view>
+</view>
+
+</view> 

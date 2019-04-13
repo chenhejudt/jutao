@@ -1,0 +1,22 @@
+<swiper class='lunbo' indicator-dots='true' autoplay='true' indicator-dots='2000' circular='true' indicator-color='#ffffff'>
+  <swiper-item><image src='../../image/one.jpg'></image></swiper-item>
+   <swiper-item><image src='../../image/two.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/three.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/fore.jpg'></image></swiper-item>
+  <swiper-item><image src='../../image/five.jpg'></image></swiper-item>
+</swiper>  
+
+<view class='int'>
+  <text>名称：萨摩耶犬</text>
+  <text>性别：母</text>
+  <text>体型：中型犬</text>
+  <text>年龄：2岁</text>
+  <text>毛发：长毛</text>
+  <text>毛色：白色</text>
+  <text>眼色：黑色</text>
+  <text>免疫驱虫：已做</text>
+</view>
+
+<view class='bottom'>
+  <text>立即租宠</text>
+</view>

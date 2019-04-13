@@ -1,0 +1,21 @@
+<!--pages/set/set.wxml-->
+<!-- <text>pages/set/set.wxml</text> -->
+<view class='con'>
+  <text>消息提醒</text>
+  <image src='../../image/gui.png'></image>
+</view>
+<view class='con'>
+  <text>评价</text>
+  <image src='../../image/gui.png'></image>
+</view>
+<view class='con'>
+  <text>清楚缓存</text>
+  <image src='../../image/gui.png'></image>
+</view>
+<view class='con'>
+  <text>关于</text>
+  <image src='../../image/gui.png'></image>
+</view>
+<button class='btn'>
+  退出登录
+</button>

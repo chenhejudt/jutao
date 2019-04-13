@@ -1,0 +1,93 @@
+<!--pages/shop/shop.wxml-->
+<!-- <text>pages/shop/shop.wxml</text> -->
+<view class='nav'>
+  <image src='../../image/liang.jpg'></image>
+</view>
+<view class='cation'>
+  <view class='fen'>
+    <image src='../../image/fen_03.jpg'></image>
+    <text>日用品</text>
+  </view>
+  <view class='fen'>
+    <image src='../../image/fen_05.jpg'></image>
+    <text>玩具</text>
+  </view>
+  <view class='fen'>
+    <image src='../../image/fen_07.jpg'></image>
+    <text>粮食</text>
+  </view>
+  <view class='fen'>
+    <image src='../../image/fen_09.jpg'></image>
+    <text>日用品</text>
+  </view>
+</view>
+<view class='gang'></view>
+
+<view class='qian'>热门推荐</view>
+
+<view class='icon'>
+  <image src='../../image/cheng_04.jpg'></image>
+</view>
+
+<view class='box'>
+<view class='left'>
+  <text>铲屎官入门</text>
+  <text>领劵满99减5</text>
+  <image src='../../image/dou.jpg'></image>
+</view>
+<view class='right'>
+  <view class='right1'>
+    <text>限时折扣</text>
+    <text>3.9元开抢</text>
+    <image src='../../image/yao_03.jpg'></image>
+  </view>
+  <view class='right1'>
+    <text>清洁保卫战</text>
+    <text>满99送大礼包</text>
+    <image src='../../image/yao_07.jpg'></image>
+  </view>
+</view>
+<view class='clear'></view>
+</view>
+
+<view class='lsi'>
+  <text>主食粮食</text>
+  <text>查看更多 > </text>
+</view>
+<view class='img'>
+  <image src='../../image/icon_02.jpg '></image>
+</view>
+
+<view class='box1'>
+<view class='le'>
+  <view class='top'>
+  <text>小型犬</text>
+  <text>泰迪/贵宾等</text>
+  <image src='../../image/a1.jpg'></image>
+  </view>
+  <view class='top'>
+  <text>中大型犬</text>
+  <text>金毛/萨摩等</text>
+  <image src='../../image/a2.jpg'></image>
+  </view>
+</view>
+<view class='ri'>
+  <view class='txt'>
+  <text>离乳期</text>
+  <text>轻松因谷底断奶</text>
+  </view>
+  <view class='txt'>
+  <text>幼犬期</text>
+  <text>阻力健康成长</text>
+  </view>
+  <view class='txt'>
+  <text>成犬粮</text>
+  <text>好营养伴更久</text>
+  </view>
+  <view class='txt'>
+  <text>全犬粮</text>
+  <text>全粮更健康</text>
+  </view>
+</view>
+<view class='clear'></view>
+</view>

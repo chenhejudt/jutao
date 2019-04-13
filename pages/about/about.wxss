@@ -1,0 +1,40 @@
+/* pages/about/about.wxss */
+page{
+  background: #fdfdfd;
+}
+.nav{
+  width: 100%;
+  padding: 50rpx 302rpx;
+  border-bottom: 1px solid #dadada;
+  background: #ffffff;
+}
+.nav image{
+  display: block;
+  width: 144rpx;
+  height: 144rpx;
+}
+.nav text{
+  text-align: center;
+  color: #585858;
+  font-size: 30rpx;
+  width: 144rpx;
+  display: block;
+}
+.my{
+  width: 100%;
+  height: 80rpx;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #dadada;
+}
+.my image{
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  padding: 0 30rpx 0 40rpx;
+}
+.my text{
+  line-height: 80rpx;
+  color: #585858;
+  font-size: 30rpx;
+}

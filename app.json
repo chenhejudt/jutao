@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/hospital/hospital",
+    "pages/about/about",
+    "pages/details/details",
+    "pages/set/set",
+    "pages/insur/insur"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c00",
+    "navigationBarTitleText": "张波涛",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "backgroundColor":"#FFFFFF",
+    "borderStyle":"white",
+    "selectedColor":"#fb6a60",
+    "color":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "租宠",
+        "iconPath": "image/zu.png",
+        "selectedIconPath": "image/zup.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "image/shang.png",
+        "selectedIconPath": "image/shangc.png"
+      },
+      {
+        "pagePath": "pages/hospital/hospital",
+        "text": "医院",
+        "iconPath": "image/yi.png",
+        "selectedIconPath": "image/yiy.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的",
+        "iconPath": "image/wo.png",
+        "selectedIconPath": "image/wod.png"
+      }
+    ]
+  }
+}
